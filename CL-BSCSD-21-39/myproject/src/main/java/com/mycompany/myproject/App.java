@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package newpackage;
+package com.mycompany.myproject;
 
 /**
  *
- * @author tharik
+ * @author Niran
  */
 public class App {
-    public static void main(String[] args) {
-        Student st = new Student("ST01", "John", "Smith");
-        System.out.println(st.getFullName());
+     public static void main(String [] args){
+       Student st = new Student("Niran","Dissanayake",39);
+       
     }
 }
